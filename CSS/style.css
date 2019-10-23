@@ -1,0 +1,50 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	//Fonte padrão qualquer texto no corpo da página
+	font-family: Tahoma;
+}
+
+h1{
+	//Tamanho da Fonte e padding do texto h1
+	font-size:12pt;
+	padding: 70px;
+}
+h1 p{
+	font-size:15pt;
+	color: rgba(0,0,0,.8);
+	line-height: 30px;
+	margin:20px 0px;
+	font-family: 'Microsoft YaHei Light';
+}
+
+
+nav{
+	
+	background-color: rgba(123,104,238);
+	height:60px;
+}
+
+ul{
+	
+	list-style: none;
+	float: right; 
+	margin-right: 100px; 
+}
+li{
+	display: inline-block; 
+	line-height: 60px;
+	padding:0px 10px;
+}
+li a{
+	text-decoration: none; 
+	color:white; 
+}
+
+li a:hover{
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
